@@ -29,3 +29,4 @@ function About() {
     )
 }
 
+ReactDOM.render(<App />, document.getElementById('root'));
