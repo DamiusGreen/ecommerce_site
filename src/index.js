@@ -89,7 +89,7 @@ export default class Main_Navbar extends React.Component {
       <div>
         <Navbar color="light" light expand="md" >
           <NavbarBrand href="/">Ecommerce</NavbarBrand>
-          <NavbarToggler onClick={this.navToggle} />
+          <NavbarToggler onClick={this.navToggle} style={{border:"none"}}/>
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto " navbar>
               <NavItem>
