@@ -47,7 +47,8 @@ export default class Main_Navbar extends React.Component {
   constructor(props) {
     super(props);
 
-    this.toggle = this.toggle.bind(this);
+    this.dropToggle = this.dropToggle.bind(this);
+    this.navToggle = this.navToggle.bind(this);
     this.onMouseEnter = this.onMouseEnter.bind(this);
     this.onMouseLeave = this.onMouseLeave.bind(this);
 
@@ -61,13 +62,15 @@ export default class Main_Navbar extends React.Component {
 
   }
 
-  toggle() {
+  //Navbar toggle button when window is smaller functionality
+  navToggle() {
     this.setState({
       isOpen: !this.state.isOpen
     });
   }
-
-  toggle() {
+ 
+  //Drop down mousehover functionality
+  dropToggle() {
     this.setState(prevState => ({
       dropdownOpen: !prevState.dropdownOpen
     }));
@@ -86,11 +89,11 @@ export default class Main_Navbar extends React.Component {
       <div>
         <Navbar color="light" light expand="md" >
           <NavbarBrand href="/">Ecommerce</NavbarBrand>
-          <NavbarToggler onClick={this.toggle} />
+          <NavbarToggler onClick={this.navToggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto " navbar>
               <NavItem>
-                <NavLink href="/men/">Men</NavLink>
+                <NavLink href="#/men/">Men</NavLink>
               </NavItem>
               <NavItem>
                 <NavLink href="#">Women</NavLink>
@@ -98,8 +101,8 @@ export default class Main_Navbar extends React.Component {
               <UncontrolledDropdown onMouseOver={this.onMouseEnter} 
                                     onMouseLeave={this.onMouseLeave} 
                                     isOpen={this.state.dropdownOpen} 
-                                    toggle={this.toggle} >
-                <DropdownToggle nav caret>
+                                    toggle={this.dropToggle} >
+                <DropdownToggle nav >
                   Kids
                 </DropdownToggle>
                 <DropdownMenu right>
