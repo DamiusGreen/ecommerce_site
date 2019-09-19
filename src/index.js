@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { HashRouter as Router, Route, Link } from "react-router-dom";
+import "./app.css"
 import {
     Collapse,
     Navbar,
@@ -14,36 +15,62 @@ import {
     DropdownMenu,
     DropdownItem } from 'reactstrap';
 
-function App() {
-    return (
-        <Router>
-            <div>
-                <Route path='/' exact component={Home} />
-                <Route path='/about' exact component={About} />
-            </div>
-        </Router>
-    )
-}
 
-function Home() {
+    function App() {
+      return (
+          <Router>
+              <div>
+              <nav style={{ margin: 10 }}>
+              <Navbar color="light" light expand="md" >
+                    <Link to='/Option1' >
+                        Option 1
+                    </Link>
+
+                    <Link to='/Option2' >
+                        Option 2
+                    </Link>
+
+                    <Link to='/Option3' >
+                        Option 3
+                    </Link>
+              </Navbar>
+                </nav>
+                  <Route path='/Option1' exact component={Option1} />
+                  <Route path='/Option2' component={Option2} />
+                  <Route path='/Option3' component={Option3} />
+              </div>
+          </Router>
+      )
+  }
+  
+
+function Option1() {
     return (
         <div>
-            <h1>Home Component</h1>
+            <h1>Option 1 Content</h1>
         </div>
     )
 }
 
-function About() {
+function Option2() {
     return (
         <div>
-            <h1>About Component</h1>
+            <h1>Option 2 Content</h1>
         </div>
     )
 }
 
+function Option3() {
+  return (
+      <div>
+          <h1>Option 3 Content</h1>
+      </div>
+  )
+}
 
 
-export default class Main_Navbar extends React.Component {
+
+class Main_Navbar extends React.Component {
   constructor(props) {
     super(props);
 
@@ -91,13 +118,16 @@ export default class Main_Navbar extends React.Component {
           <NavbarBrand href="/">Ecommerce</NavbarBrand>
           <NavbarToggler onClick={this.navToggle} style={{border:"none"}}/>
           <Collapse isOpen={this.state.isOpen} navbar>
+
             <Nav className="ml-auto " navbar>
               <NavItem>
-                <NavLink href="#/men/">Men</NavLink>
+                <NavLink href="/">Home</NavLink>
               </NavItem>
+              <DropdownItem divider />
               <NavItem>
-                <NavLink href="#">Women</NavLink>
+                <NavLink href="/Men#/">Men</NavLink>
               </NavItem>
+              <DropdownItem divider />
               <UncontrolledDropdown onMouseOver={this.onMouseEnter} 
                                     onMouseLeave={this.onMouseLeave} 
                                     isOpen={this.state.dropdownOpen} 
@@ -108,7 +138,8 @@ export default class Main_Navbar extends React.Component {
                 <DropdownMenu right>
                   <DropdownItem>
                     Boys
-                  </DropdownItem>
+                  </DropdownItem >
+                  <DropdownItem divider />
                   <DropdownItem>
                     Girls
                   </DropdownItem>
@@ -123,4 +154,10 @@ export default class Main_Navbar extends React.Component {
   }
 }
 
-ReactDOM.render(<Main_Navbar />, document.getElementById('root'));
+ReactDOM.render(
+    <div>
+        <Main_Navbar />
+        <App />
+    </div>, 
+    document.getElementById('root')
+);
