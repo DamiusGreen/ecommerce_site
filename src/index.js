@@ -102,7 +102,7 @@ export default class Main_Navbar extends React.Component {
                                     onMouseLeave={this.onMouseLeave} 
                                     isOpen={this.state.dropdownOpen} 
                                     toggle={this.dropToggle} >
-                <DropdownToggle nav >
+                <DropdownToggle nav>
                   Kids
                 </DropdownToggle>
                 <DropdownMenu right>
