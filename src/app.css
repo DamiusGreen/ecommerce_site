@@ -29,44 +29,28 @@ a:hover {
     padding: 0;
 }
 
-/* Style the search box inside the navigation bar */
-.topnav input[type=text], .topnav .search-container button {
-    float: right;
-    padding: 6px;
-    border: 1px solid #ccc;
-    margin-top: 8px;
-    margin-right: 0px;
-    font-size: 17px;
+/*----------Search Bar----------*/
+.search {
+    width: 100%;
+    position: relative;
+    display: flex;
   }
 
-  .topnav .search-container {
-    float: right;
-  }
-
-  @media screen and (max-width) {
-    .topnav a, .topnav input[type=text], .topnav .search-container button {
-      float: none;
-      display: block;
-      text-align: left;
-      width: 100%;
-      margin: 0;
-      padding: 10px;
-    }
-    .topnav input[type=text], .topnav .search-container button {
-      border: 1px solid #ccc;
-    }
-  }
-
-  .topnav .search-container button:hover {
+button:hover {
     background: #ccc;
   }
-  
-  .form {
-    padding: 5px 0 0 0;
+
+.search button {
+    float: none;
+    display: block;
+    text-align: left;
+    top: 10px;
+    margin: 0;
+    padding-top: 5px;
   }
 
-  .in1 .in2 {
-    vertical-align: top;
-  }
-
-  input {vertical-align: middle;}
+.wrap {
+    padding-top: 10px;
+    padding-left: 0px;
+    width: 100%;
+}
