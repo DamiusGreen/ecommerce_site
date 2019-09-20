@@ -21,22 +21,30 @@ import {
       return (
           <Router>
               <div>
-              <nav style={{ margin: 10 }}>
-              <Navbar color="light" light expand="md" >
-                <h1>Today's 50% OFF Deals</h1>
-                    <Link to='/Option1' >
-                        Buisness
-                    </Link>
+              <nav style={{ margin: 0 }}>
+              <div class="dealbar">
+                
+                  <Navbar color="light" light expand="md" >
+                    <div class="col-md-8">
+                        <h1>Today's 50% OFF Deals</h1>
+                    </div>
+                    <div class="col-md-4">
+                        <Link to='/Option1' >
+                            Buisness
+                        </Link>
 
-                    <Link to='/Option2' >
-                        Casual
-                    </Link>
+                        <Link to='/Option2' >
+                            Casual
+                        </Link>
 
-                    <Link to='/Option3' >
-                        Back To School
-                    </Link>
-              </Navbar>
-                </nav>
+                        <Link to='/Option3' >
+                            Loungewear
+                        </Link>
+                    </div>
+                  </Navbar>
+                
+              </div>
+              </nav>
                   <Route path='/Option1' exact component={Option1} />
                   <Route path='/Option2' component={Option2} />
                   <Route path='/Option3' component={Option3} />
