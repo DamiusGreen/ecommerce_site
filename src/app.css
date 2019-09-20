@@ -61,3 +61,10 @@ a:hover {
     background: #ccc;
   }
   
+  .form {
+    padding: 5px 0 0 0;
+  }
+
+  .in1 .in2 {
+    vertical-align: top;
+  }
