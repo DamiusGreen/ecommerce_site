@@ -28,3 +28,36 @@ a:hover {
     margin-bottom: 5px;
     padding: 0;
 }
+
+/* Style the search box inside the navigation bar */
+.topnav input[type=text], .topnav .search-container button {
+    float: right;
+    padding: 6px;
+    border: 1px solid #ccc;
+    margin-top: 8px;
+    margin-right: 0px;
+    font-size: 17px;
+  }
+
+  .topnav .search-container {
+    float: right;
+  }
+
+  @media screen and (max-width) {
+    .topnav a, .topnav input[type=text], .topnav .search-container button {
+      float: none;
+      display: block;
+      text-align: left;
+      width: 100%;
+      margin: 0;
+      padding: 10px;
+    }
+    .topnav input[type=text], .topnav .search-container button {
+      border: 1px solid #ccc;
+    }
+  }
+
+  .topnav .search-container button:hover {
+    background: #ccc;
+  }
+  
