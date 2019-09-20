@@ -68,3 +68,5 @@ a:hover {
   .in1 .in2 {
     vertical-align: top;
   }
+
+  input {vertical-align: middle;}
