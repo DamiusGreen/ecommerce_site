@@ -26,7 +26,7 @@ import {
                 
                   <Navbar color="light" light expand="md" >
                     <div class="col-md-8">
-                        <h1>Today's 50% OFF Deals</h1>
+                        <h1 style={{fontSize: 33}}>Today's 50% OFF Deals</h1>
                     </div>
                     <div class="col-md-4">
                         <Link to='/Option1' >
@@ -44,6 +44,9 @@ import {
                   </Navbar>
                 
               </div>
+
+              <hr  class="line" />
+              
               </nav>
                   <Route path='/Option1' exact component={Option1} />
                   <Route path='/Option2' component={Option2} />
@@ -77,6 +80,16 @@ function Option3() {
       </div>
   )
 }
+
+const ColoredLine = ({ color }) => (
+    <hr
+        style={{
+            color: color,
+            backgroundColor: color,
+            height: 5
+        }}
+    />
+);
 
 ReactDOM.render(
     <div>

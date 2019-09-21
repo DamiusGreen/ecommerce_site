@@ -18,6 +18,10 @@ a:hover {
     color: black;
 }
 
+.logocol {
+    padding-top: 10px;
+}
+
 #logo:hover {
     color: grey;
 }
@@ -29,6 +33,12 @@ a:hover {
     padding: 0;
 }
 
+.line {
+    border: 1px solid rgb(192, 192, 192);
+    margin: 0px;
+    padding-top: 2px;
+}
+
 /*----------Search Bar----------*/
 .search {
     width: 100%;
@@ -37,7 +47,7 @@ a:hover {
   }
 
 button:hover {
-    background: #ccc;
+    background: rgb(161, 161, 161);
   }
 
 .search button {
