@@ -34,7 +34,7 @@ a:hover {
 }
 
 .line {
-    border: 1px solid rgb(192, 192, 192);
+    border: 1px solid rgb(136, 136, 136);
     margin: 0px;
     padding-top: 2px;
 }
@@ -63,4 +63,10 @@ button:hover {
     padding-top: 10px;
     padding-left: 0px;
     width: 100%;
+}
+
+
+/*----------Hover for dropdown menus----------*/
+.dropdown:hover .dropdown-menu {
+    display: block;
 }

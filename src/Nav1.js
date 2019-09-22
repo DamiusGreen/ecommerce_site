@@ -71,27 +71,64 @@ dropToggle() {
               </NavItem>
               <DropdownItem divider />
               <NavItem>
-                <NavLink href="/Men#/">Men</NavLink>
+                
+                <UncontrolledDropdown >
+                  <DropdownToggle nav>
+                    Men
+                  </DropdownToggle>
+                  <DropdownMenu right>
+                      <DropdownItem>
+                          <a href="">New Arrivals</a>
+                      </DropdownItem >
+                    <DropdownItem divider />
+                      <DropdownItem>
+                          <a href="">Suits</a>
+                      </DropdownItem>
+                    <DropdownItem divider />
+                      <DropdownItem>
+                          <a href="">Denim Wear</a>
+                      </DropdownItem>
+                  </DropdownMenu>
+              </UncontrolledDropdown>
+              
+              
               </NavItem>
               <DropdownItem divider />
+
               <NavItem>
-                <NavLink href="/Women#/">Women</NavLink>
+                <UncontrolledDropdown >
+                  <DropdownToggle nav>
+                    Women
+                  </DropdownToggle>
+                  <DropdownMenu right>
+                      <DropdownItem>
+                          <a href="">New Arrivals</a>
+                      </DropdownItem >
+                    <DropdownItem divider />
+                      <DropdownItem>
+                          <a href="">Suits</a>
+                      </DropdownItem>
+                    <DropdownItem divider />
+                      <DropdownItem>
+                          <a href="">Dresses</a>
+                      </DropdownItem>
+                  </DropdownMenu>
+              </UncontrolledDropdown>
               </NavItem>
+
               <DropdownItem divider />
-              <UncontrolledDropdown onMouseOver={this.onMouseEnter} 
-                                    onMouseLeave={this.onMouseLeave} 
-                                    isOpen={this.state.dropdownOpen} 
-                                    toggle={this.dropToggle} >
+
+              <UncontrolledDropdown  >
                 <DropdownToggle nav>
                   Kids
                 </DropdownToggle>
                 <DropdownMenu right>
                   <DropdownItem>
-                    Boys
+                      <a href="">Boys</a>
                   </DropdownItem >
                   <DropdownItem divider />
                   <DropdownItem>
-                    Girls
+                      <a href="">Girls</a>
                   </DropdownItem>
                   
                   </DropdownMenu>
