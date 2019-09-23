@@ -1,5 +1,5 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+
 import {
     Collapse,
     Navbar,
@@ -65,28 +65,28 @@ dropToggle() {
           <NavbarToggler onClick={this.navToggle} style={{border:"none"}}/>
           <Collapse isOpen={this.state.isOpen} navbar>
 
-            <Nav className="ml-auto " navbar>
+            <Nav className="ml-auto " navbar >
               <NavItem>
-                <NavLink href="/">Home</NavLink>
+                <NavLink href="/" style={{ textDecoration: 'none' },{color: "black"}}>Home</NavLink>
               </NavItem>
               <DropdownItem divider />
               <NavItem>
                 
                 <UncontrolledDropdown >
-                  <DropdownToggle nav>
+                  <DropdownToggle nav style={{ textDecoration: 'none' },{color: "black"}}>
                     Men
                   </DropdownToggle>
                   <DropdownMenu right>
-                      <DropdownItem>
-                          <a href="">New Arrivals</a>
+                      <DropdownItem className="dropdown-link">
+                          <a href="" >New Arrivals</a>
                       </DropdownItem >
                     <DropdownItem divider />
-                      <DropdownItem>
-                          <a href="">Suits</a>
+                      <DropdownItem className="dropdown-link">
+                          <a href="" >Suits</a>
                       </DropdownItem>
                     <DropdownItem divider />
-                      <DropdownItem>
-                          <a href="">Denim Wear</a>
+                      <DropdownItem className="dropdown-link">
+                          <a href="" >Denim Wear</a>
                       </DropdownItem>
                   </DropdownMenu>
               </UncontrolledDropdown>
@@ -95,22 +95,22 @@ dropToggle() {
               </NavItem>
               <DropdownItem divider />
 
-              <NavItem>
+              <NavItem >
                 <UncontrolledDropdown >
-                  <DropdownToggle nav>
+                  <DropdownToggle nav class="topnav" style={{ textDecoration: 'none' },{color: "black"}}>
                     Women
                   </DropdownToggle>
-                  <DropdownMenu right>
-                      <DropdownItem>
-                          <a href="">New Arrivals</a>
+                  <DropdownMenu right >
+                      <DropdownItem className="dropdown-link">
+                          <a href="" >New Arrivals</a>
                       </DropdownItem >
                     <DropdownItem divider />
-                      <DropdownItem>
-                          <a href="">Suits</a>
+                      <DropdownItem className="dropdown-link">
+                          <a href="" >Suits</a>
                       </DropdownItem>
                     <DropdownItem divider />
-                      <DropdownItem>
-                          <a href="">Dresses</a>
+                      <DropdownItem className="dropdown-link">
+                          <a href="" >Dresses</a>
                       </DropdownItem>
                   </DropdownMenu>
               </UncontrolledDropdown>
@@ -119,16 +119,16 @@ dropToggle() {
               <DropdownItem divider />
 
               <UncontrolledDropdown  >
-                <DropdownToggle nav>
+                <DropdownToggle nav style={{ textDecoration: 'none' },{color: "black"}}>
                   Kids
                 </DropdownToggle>
                 <DropdownMenu right>
-                  <DropdownItem>
-                      <a href="">Boys</a>
+                  <DropdownItem className="dropdown-link">
+                      <a href="" >Boys</a>
                   </DropdownItem >
                   <DropdownItem divider />
-                  <DropdownItem>
-                      <a href="">Girls</a>
+                  <DropdownItem className="dropdown-link">
+                      <a href="" >Girls</a>
                   </DropdownItem>
                   
                   </DropdownMenu>

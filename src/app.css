@@ -1,11 +1,11 @@
 a {
-    padding: 20px;
+    padding-left: 20px;
+    padding-right: 5px;
+    margin-right: 5px;
     text-decoration: none;
 }
 
-a:hover {
-    text-decoration: none;
-}
+
 
 .details {
     padding: 0px;
@@ -69,4 +69,15 @@ button:hover {
 /*----------Hover for dropdown menus----------*/
 .dropdown:hover .dropdown-menu {
     display: block;
+}
+
+.link:hover {
+    color: rgb(0, 0, 0)
+ }
+
+ .dropdown-link a {
+    color: rgb(0, 0, 0) !important;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 1px;
 }

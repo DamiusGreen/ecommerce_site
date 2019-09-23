@@ -25,22 +25,24 @@ import {
                 <div class="dealbar">
                   
                     <Navbar color="light" light expand="md" >
-                      <div class="col-md-8">
+                    <div class="row">
+                      <div class="col-md-9">
                           <h1 style={{fontSize: 33}}>Today's 50% OFF Deals</h1>
                       </div>
-                      <div class="col-md-4">
-                          <Link to='/Option1' >
+                      <div class="col-md-3" style={{paddingRight: 30}, {marginRight: 10}}>
+                          <Link to='/Option1' style={{ textDecoration: 'none' },{color: "black"}}>
                               Buisness
                           </Link>
   
-                          <Link to='/Option2' >
+                          <Link to='/Option2' style={{ textDecoration: 'none' },{color: "black"}}>
                               Casual
                           </Link>
   
-                          <Link to='/Option3' >
+                          <Link to='/Option3' style={{ textDecoration: 'none' },{color: "black"}}>
                               Loungewear
                           </Link>
                       </div>
+                    </div>
                     </Navbar>
                   
                 </div>
