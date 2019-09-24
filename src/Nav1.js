@@ -74,19 +74,23 @@ dropToggle() {
                 
                 <UncontrolledDropdown >
                   <DropdownToggle nav style={{ textDecoration: 'none' },{color: "black"}}>
-                    Men
+                    Dinnerware
                   </DropdownToggle>
                   <DropdownMenu right>
                       <DropdownItem className="dropdown-link">
-                          <a href="" >New Arrivals</a>
+                          <a href="" >Dinnerware Sets</a>
                       </DropdownItem >
                     <DropdownItem divider />
                       <DropdownItem className="dropdown-link">
-                          <a href="" >Suits</a>
+                          <a href="" >Dinner Plates</a>
                       </DropdownItem>
                     <DropdownItem divider />
                       <DropdownItem className="dropdown-link">
-                          <a href="" >Denim Wear</a>
+                          <a href="" >Bowls</a>
+                      </DropdownItem>
+                    <DropdownItem divider />
+                      <DropdownItem className="dropdown-link">
+                          <a href="" >Mugs</a>
                       </DropdownItem>
                   </DropdownMenu>
               </UncontrolledDropdown>
@@ -98,19 +102,23 @@ dropToggle() {
               <NavItem >
                 <UncontrolledDropdown >
                   <DropdownToggle nav class="topnav" style={{ textDecoration: 'none' },{color: "black"}}>
-                    Women
+                    Kitchen Appliances
                   </DropdownToggle>
                   <DropdownMenu right >
                       <DropdownItem className="dropdown-link">
-                          <a href="" >New Arrivals</a>
+                          <a href="" >Slow Cookers</a>
                       </DropdownItem >
                     <DropdownItem divider />
                       <DropdownItem className="dropdown-link">
-                          <a href="" >Suits</a>
+                          <a href="" >Microwaves</a>
                       </DropdownItem>
                     <DropdownItem divider />
                       <DropdownItem className="dropdown-link">
-                          <a href="" >Dresses</a>
+                          <a href="" >Blenders</a>
+                      </DropdownItem>
+                    <DropdownItem divider />
+                      <DropdownItem className="dropdown-link">
+                          <a href="" >Toasters & Toaster Ovens</a>
                       </DropdownItem>
                   </DropdownMenu>
               </UncontrolledDropdown>
@@ -120,17 +128,21 @@ dropToggle() {
 
               <UncontrolledDropdown  >
                 <DropdownToggle nav style={{ textDecoration: 'none' },{color: "black"}}>
-                  Kids
+                  Pots & Pans
                 </DropdownToggle>
                 <DropdownMenu right>
                   <DropdownItem className="dropdown-link">
-                      <a href="" >Boys</a>
+                      <a href="" >Cookware Sets</a>
                   </DropdownItem >
-                  <DropdownItem divider />
+                <DropdownItem divider />
                   <DropdownItem className="dropdown-link">
-                      <a href="" >Girls</a>
+                      <a href="" >Roasting Pans</a>
                   </DropdownItem>
-                  
+                <DropdownItem divider />
+                  <DropdownItem className="dropdown-link">
+                      <a href="" >Woks</a>
+                  </DropdownItem>
+
                   </DropdownMenu>
               </UncontrolledDropdown>
             </Nav>

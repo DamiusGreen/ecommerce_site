@@ -26,20 +26,20 @@ import {
                   
                     <Navbar color="light" light expand="md" >
                     <div class="row">
-                      <div class="col-md-9">
+                      <div class="col-md-5">
                           <h1 style={{fontSize: 33}}>Today's 50% OFF Deals</h1>
                       </div>
-                      <div class="col-md-3" style={{paddingRight: 30}, {marginRight: 10}}>
+                      <div class="col-md-7" style={{paddingRight: 30}, {marginRight: 10}}>
                           <Link to='/Option1' style={{ textDecoration: 'none' },{color: "black"}}>
-                              Buisness
+                              Cutlery
                           </Link>
   
                           <Link to='/Option2' style={{ textDecoration: 'none' },{color: "black"}}>
-                              Casual
+                              Kitchen Tools and Utensil Sets
                           </Link>
   
                           <Link to='/Option3' style={{ textDecoration: 'none' },{color: "black"}}>
-                              Loungewear
+                              Spatulas & Turners
                           </Link>
                       </div>
                     </div>
