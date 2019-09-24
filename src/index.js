@@ -101,3 +101,18 @@ ReactDOM.render(
     </div>, 
     document.getElementById('root')
 );
+
+const $ = window.$;
+$(document).ready(function() {
+    
+    $(".details2").hide()
+    $(".details").hover(
+      function () {
+        $('.details2').stop().fadeTo(500, 1.0);
+      }, 
+      function () {
+        $('.details2').stop().fadeOut(500);
+      }
+    );
+    
+});
