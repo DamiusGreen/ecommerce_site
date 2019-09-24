@@ -12,10 +12,11 @@ a {
 }
 
 .details2 {
-    color: rgb(0, 0, 0);
+    color: rgb(110, 81, 0);
     position: absolute;
     z-index: 1;
-    background-color: rgb(214, 214, 214)
+    background-color: rgb(241, 241, 241);
+    border: 1px solid rgb(110, 81, 0);
 }
 
 /*-------------------------------------*/
@@ -23,7 +24,7 @@ a {
 #logo {
     padding: 5px;
     text-decoration: none;
-    color: black;
+    color: rgb(110, 81, 0);
 }
 
 .logocol {
@@ -42,52 +43,25 @@ a {
 }
 
 .line {
-    border: 1px solid rgb(136, 136, 136);
+    border: 4px solid rgb(110, 81, 0);
     margin: 0px;
     padding-top: 2px;
 }
-
-/*----------Search Bar----------*/
-.search {
-    width: 100%;
-    position: relative;
-    display: flex;
-  }
-
-button:hover {
-    background: rgb(161, 161, 161);
-  }
-
-.search button {
-    float: none;
-    display: block;
-    text-align: left;
-    top: 10px;
-    margin: 0;
-    padding-top: 5px;
-  }
-
-.wrap {
-    padding-top: 10px;
-    padding-left: 0px;
-    width: 100%;
-}
-
 
 /*----------Hover for dropdown menus----------*/
 .dropdown:hover .dropdown-menu {
     display: block;
 }
 
-.link:hover {
-    color: rgb(0, 0, 0)
- }
-
  .dropdown-link a {
     color: rgb(0, 0, 0) !important;
-    padding-left: 20px;
-    padding-right: 20px;
-    margin: 1px;
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+}
+
+.dropdown-item:hover a {
+    color: rgb(75, 55, 0) !important;
 }
 
 /*----------Account Icons----------*/

@@ -61,7 +61,7 @@ dropToggle() {
     return (
       <div>
         <Navbar color="light" light expand="md" class="w-100" >
-          <NavbarBrand href="/" style={{fontSize: 18}}>We provide a wide variety of luxury brands.</NavbarBrand>
+          <NavbarBrand href="/" style={{fontSize: 18}}><i>We provide a wide variety of luxury brands.</i></NavbarBrand>
           <NavbarToggler onClick={this.navToggle} style={{border:"none"}}/>
           <Collapse isOpen={this.state.isOpen} navbar>
 
