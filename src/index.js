@@ -20,9 +20,9 @@ import {
     export default function App() {
         return (
             <Router>
-                <div>
+                <div >
                 <nav style={{ margin: 0 }}>
-                <div class="dealbar">
+                <div >
                   
                     <Navbar color="light" light expand="md" >
                     <div class="row">
@@ -102,6 +102,7 @@ ReactDOM.render(
     document.getElementById('root')
 );
 
+//Jquery effects for the shipping details link
 const $ = window.$;
 $(document).ready(function() {
     

@@ -59,7 +59,7 @@ dropToggle() {
 
   render() {
     return (
-      <div>
+      <div className="sticky">
         <Navbar color="light" light expand="md" class="w-100" >
           <NavbarBrand href="/" style={{fontSize: 18}}><i>We provide a wide variety of luxury brands.</i></NavbarBrand>
           <NavbarToggler onClick={this.navToggle} style={{border:"none"}}/>
