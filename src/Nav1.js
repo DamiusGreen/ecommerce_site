@@ -60,12 +60,12 @@ dropToggle() {
   render() {
     return (
       <div className="sticky">
-        <Navbar color="light" light expand="md" class="w-100" >
+        <Navbar color="light" light expand="md" className="w-100 sticky-nav" >
           <NavbarBrand href="/" style={{fontSize: 18}}><i>We provide a wide variety of luxury brands.</i></NavbarBrand>
           <NavbarToggler onClick={this.navToggle} style={{border:"none"}}/>
           <Collapse isOpen={this.state.isOpen} navbar>
 
-            <Nav className="ml-auto " navbar >
+            <Nav className="ml-auto stickybar" navbar >
               <NavItem>
                 <NavLink href="/" style={{ textDecoration: 'none' },{color: "black"}}>Home</NavLink>
               </NavItem>

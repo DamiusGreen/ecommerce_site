@@ -13,10 +13,9 @@ a {
 
 .details2 {
     color: rgb(110, 81, 0);
-    position: absolute;
-    z-index: 1;
     background-color: rgb(241, 241, 241);
     border: 3px solid rgb(110, 81, 0);
+    position: relative;
 }
 
 /*-------------------------------------*/
@@ -44,6 +43,7 @@ a {
 
 .line {
     border: 4px solid rgb(110, 81, 0);
+    z-index: -1;
     margin: 0px;
     padding-top: 2px;
     background-color: white;
@@ -68,6 +68,14 @@ a {
 /*----------Account Icons----------*/
 .account {
     padding-top: 10px;
+}
+
+.root-container {
+    padding-bottom: 1%;
+}
+
+.slideshow {
+    padding-left: 2%;
 }
 
 /*

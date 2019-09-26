@@ -109,10 +109,10 @@ $(document).ready(function() {
     $(".details2").hide()
     $(".details").hover(
       function () {
-        $('.details2').stop().fadeTo(500, 1.0);
+        $('.details2').stop().fadeTo(300, 1.0);
       }, 
       function () {
-        $('.details2').stop().fadeOut(500);
+        $('.details2').stop().fadeOut(300);
       }
     );
     
