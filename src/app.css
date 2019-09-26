@@ -84,6 +84,7 @@ a {
  }
 */
 
+/*----------right container of carousl----------*/
 .text-container {
     position: relative;
 }
@@ -97,4 +98,10 @@ a {
     color: white;
     padding-left: 25px;
     padding-right: 20px;
+}
+
+
+/*----------Dropdown button hover color----------*/
+Button:hover {
+    background-color: rgb(182, 182, 182) !important;
 }

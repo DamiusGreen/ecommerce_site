@@ -40,8 +40,6 @@ navToggle() {
     });
   }
 
-
-
 //Drop down mousehover functionality
 dropToggle() {
     this.setState(prevState => ({
@@ -57,11 +55,16 @@ dropToggle() {
     this.setState({dropdownOpen: false});
   }
 
+
   render() {
     return (
       <div className="sticky">
         <Navbar color="light" light expand="md" className="w-100 sticky-nav" >
-          <NavbarBrand href="/" style={{fontSize: 18}}><i>We provide a wide variety of luxury brands.</i></NavbarBrand>
+          <NavbarBrand href="/" style={{fontSize: 18}}>
+            <i>
+              We provide a wide variety of luxury brands.
+            </i>
+          </NavbarBrand>
           <NavbarToggler onClick={this.navToggle} style={{border:"none"}}/>
           <Collapse isOpen={this.state.isOpen} navbar>
 
@@ -77,19 +80,19 @@ dropToggle() {
                     Dinnerware
                   </DropdownToggle>
                   <DropdownMenu right>
-                      <DropdownItem className="dropdown-link">
+                      <DropdownItem toggle={false} className="dropdown-link">
                           <a href="" >Dinnerware Sets</a>
                       </DropdownItem >
                     <DropdownItem divider />
-                      <DropdownItem className="dropdown-link">
+                      <DropdownItem toggle={false} className="dropdown-link">
                           <a href="" >Dinner Plates</a>
                       </DropdownItem>
                     <DropdownItem divider />
-                      <DropdownItem className="dropdown-link">
+                      <DropdownItem toggle={false} className="dropdown-link">
                           <a href="" >Bowls</a>
                       </DropdownItem>
                     <DropdownItem divider />
-                      <DropdownItem className="dropdown-link">
+                      <DropdownItem toggle={false} className="dropdown-link">
                           <a href="" >Mugs</a>
                       </DropdownItem>
                   </DropdownMenu>
@@ -105,19 +108,19 @@ dropToggle() {
                     Kitchen Appliances
                   </DropdownToggle>
                   <DropdownMenu right >
-                      <DropdownItem className="dropdown-link">
+                      <DropdownItem toggle={false} className="dropdown-link">
                           <a href="" >Slow Cookers</a>
                       </DropdownItem >
                     <DropdownItem divider />
-                      <DropdownItem className="dropdown-link">
+                      <DropdownItem toggle={false} className="dropdown-link">
                           <a href="" >Microwaves</a>
                       </DropdownItem>
                     <DropdownItem divider />
-                      <DropdownItem className="dropdown-link">
+                      <DropdownItem toggle={false} className="dropdown-link">
                           <a href="" >Blenders</a>
                       </DropdownItem>
                     <DropdownItem divider />
-                      <DropdownItem className="dropdown-link">
+                      <DropdownItem toggle={false} className="dropdown-link">
                           <a href="" >Toasters & Toaster Ovens</a>
                       </DropdownItem>
                   </DropdownMenu>
@@ -131,15 +134,15 @@ dropToggle() {
                   Pots & Pans
                 </DropdownToggle>
                 <DropdownMenu right>
-                  <DropdownItem className="dropdown-link">
+                  <DropdownItem toggle={false} className="dropdown-link">
                       <a href="" >Cookware Sets</a>
                   </DropdownItem >
                 <DropdownItem divider />
-                  <DropdownItem className="dropdown-link">
+                  <DropdownItem toggle={false} className="dropdown-link">
                       <a href="" >Roasting Pans</a>
                   </DropdownItem>
                 <DropdownItem divider />
-                  <DropdownItem className="dropdown-link">
+                  <DropdownItem toggle={false} className="dropdown-link">
                       <a href="" >Woks</a>
                   </DropdownItem>
 
