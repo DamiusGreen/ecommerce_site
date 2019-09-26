@@ -83,3 +83,18 @@ a {
     height: 700px;
  }
 */
+
+.text-container {
+    position: relative;
+}
+
+.text {
+    position: absolute;
+    bottom: 100px;
+    right: 0px;
+    background-color: black;
+    opacity: .8;
+    color: white;
+    padding-left: 25px;
+    padding-right: 20px;
+}
