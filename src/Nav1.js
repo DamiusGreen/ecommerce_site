@@ -76,7 +76,7 @@ dropToggle() {
               <NavItem>
                 
                 <UncontrolledDropdown >
-                  <DropdownToggle nav style={{ textDecoration: 'none' },{color: "black"}}>
+                  <DropdownToggle disabled nav style={{ textDecoration: 'none' },{color: "black"}}>
                     Dinnerware
                   </DropdownToggle>
                   <DropdownMenu right>
@@ -104,7 +104,7 @@ dropToggle() {
 
               <NavItem >
                 <UncontrolledDropdown >
-                  <DropdownToggle nav class="topnav" style={{ textDecoration: 'none' },{color: "black"}}>
+                  <DropdownToggle disabled nav class="topnav" style={{ textDecoration: 'none' },{color: "black"}}>
                     Kitchen Appliances
                   </DropdownToggle>
                   <DropdownMenu right >
@@ -130,7 +130,7 @@ dropToggle() {
               <DropdownItem divider />
 
               <UncontrolledDropdown  >
-                <DropdownToggle nav style={{ textDecoration: 'none' },{color: "black"}}>
+                <DropdownToggle disabled nav style={{ textDecoration: 'none' },{color: "black"}}>
                   Pots & Pans
                 </DropdownToggle>
                 <DropdownMenu right>
