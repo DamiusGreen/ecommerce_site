@@ -115,5 +115,4 @@ $(document).ready(function() {
         $('.details2').stop().fadeOut(300);
       }
     );
-    
 });

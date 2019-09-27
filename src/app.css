@@ -76,6 +76,7 @@ a {
 
 .slideshow {
     padding-left: 2%;
+    padding-bottom: 50px;
 }
 
 /*
@@ -101,14 +102,27 @@ a {
 }
 
 
-/*----------Dropdown button hover color----------*/
+/*----------Dropdown button hover functionality----------*/
 Button:hover {
     background-color: rgb(182, 182, 182) !important;
 }
 
-
-/*----------figure out how to keep top link colored while dropdown is open----------*/
-.nav-hover:hover{
+.nav-hover:hover {
     background-color: rgb(163, 142, 90) !important;
     font-weight: 500;
+}
+
+
+/*----------footer----------*/
+.footer-container {
+    padding-left: 10px;
+    margin-left: 10px;
+    width: 100px;
+}
+
+.footer-info {
+    padding: 25px;
+    margin-left: 10px;
+    width: 100%;
+    background-color: rgb(182, 182, 182);
 }
