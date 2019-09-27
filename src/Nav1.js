@@ -70,13 +70,13 @@ dropToggle() {
 
             <Nav className="ml-auto stickybar" navbar >
               <NavItem>
-                <NavLink href="/" style={{ textDecoration: 'none' },{color: "black"}}>Home</NavLink>
+                <NavLink className="nav-hover" href="/" style={{ textDecoration: 'none' },{color: "black"}}>Home</NavLink>
               </NavItem>
               <DropdownItem divider />
               <NavItem>
                 
                 <UncontrolledDropdown >
-                  <DropdownToggle disabled nav style={{ textDecoration: 'none' },{color: "black"}}>
+                  <DropdownToggle className="nav-hover" disabled nav style={{ textDecoration: 'none' },{color: "black"}}>
                     Dinnerware
                   </DropdownToggle>
                   <DropdownMenu right>
@@ -104,7 +104,7 @@ dropToggle() {
 
               <NavItem >
                 <UncontrolledDropdown >
-                  <DropdownToggle disabled nav class="topnav" style={{ textDecoration: 'none' },{color: "black"}}>
+                  <DropdownToggle className="nav-hover" disabled nav class="topnav" style={{ textDecoration: 'none' },{color: "black"}}>
                     Kitchen Appliances
                   </DropdownToggle>
                   <DropdownMenu right >
@@ -130,7 +130,7 @@ dropToggle() {
               <DropdownItem divider />
 
               <UncontrolledDropdown  >
-                <DropdownToggle disabled nav style={{ textDecoration: 'none' },{color: "black"}}>
+                <DropdownToggle className="nav-hover" disabled nav style={{ textDecoration: 'none' },{color: "black"}}>
                   Pots & Pans
                 </DropdownToggle>
                 <DropdownMenu right>
