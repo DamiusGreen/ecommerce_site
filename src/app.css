@@ -109,6 +109,6 @@ Button:hover {
 
 /*----------figure out how to keep top link colored while dropdown is open----------*/
 .nav-hover:hover{
-    background-color: rgb(150, 140, 115) !important;
+    background-color: rgb(163, 142, 90) !important;
     font-weight: 500;
 }
