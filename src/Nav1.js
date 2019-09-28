@@ -60,7 +60,7 @@ dropToggle() {
     return (
       <div className="sticky">
         <Navbar color="light" light expand="md" className="w-100 sticky-nav" >
-          <NavbarBrand href="/" style={{fontSize: 18}}>
+          <NavbarBrand style={{fontSize: 18}}>
             <i>
               We provide a wide variety of luxury brands.
             </i>

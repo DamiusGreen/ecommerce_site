@@ -112,6 +112,13 @@ Button:hover {
     font-weight: 500;
 }
 
+/*----------ad_1 Container----------*/
+.ad1 {
+    padding-left: 17px;
+    padding-bottom: 15px;
+}
+
+
 
 /*----------footer----------*/
 .footer-container {
