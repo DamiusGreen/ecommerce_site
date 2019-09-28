@@ -121,8 +121,32 @@ Button:hover {
 }
 
 .footer-info {
-    padding: 25px;
+    padding: 35px;
     margin-left: 10px;
     width: 100%;
     background-color: rgb(182, 182, 182);
+    font-size: 14px;
+}
+
+.footer-info .col-md-3 {
+    padding-top: 20px;
+}
+
+.footer-info a {
+    text-decoration: none;
+    color: black !important;
+}
+
+.rights_reserved {
+    padding-top: 35px;
+}
+
+.section4 .icon {
+    font-size: 25px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.section4 h6 {
+    padding-left: 45px;
 }
