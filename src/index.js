@@ -61,8 +61,25 @@ import {
   
   function Option1() {
       return (
-          <div>
-              <h1>Option 1 Content</h1>
+          <div className= "cut row w-100">
+
+            <div className= "border w-100 col-md-3">
+                <a href="#"><img class="d-block w-100" src="kitchen_club_photos\cut_1.jpg" alt="cut1" /></a>
+            </div>
+
+            <div className= "border w-100 col-md-3">
+                <a href="#"><img class="d-block w-100" src="kitchen_club_photos\cut_2.jpg" alt="cut2" /></a>
+            </div>
+
+            <div className= "border w-100 col-md-3">
+                <a href="#"><img class="d-block w-100" src="kitchen_club_photos\cut_3.jpg" alt="cut3" /></a>
+            </div>
+
+            <div className= "border w-100 col-md-3">
+                <a href="#"><img class="d-block w-100" src="kitchen_club_photos\cut_4.jpg" alt="cut4" /></a>
+            </div>
+
+
           </div>
       )
   }
