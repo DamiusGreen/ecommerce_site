@@ -30,7 +30,7 @@ import {
                           <h1 style={{fontSize: 33}}>Today's 50% OFF Deals</h1>
                       </div>
                       <div class="col-md-7" style={{paddingRight: 30}, {marginRight: 10}}>
-                          <Link to='/Option1' style={{ textDecoration: 'none' },{color: "black"}}>
+                          <Link to='/Option1' className= "hidecut" style={{ textDecoration: 'none' },{color: "black"}}>
                               Cutlery
                           </Link>
   
@@ -61,22 +61,28 @@ import {
   
   function Option1() {
       return (
-          <div className= "cut row w-100">
+          <div className= "cut row w-100" style= {{display: "none"}}>
 
             <div className= "border w-100 col-md-3">
                 <a href="#"><img class="d-block w-100" src="kitchen_club_photos\cut_1.jpg" alt="cut1" /></a>
+                <p>Zwilling Kanren 4-Piece Steak Knife Set</p>
+                <span className= "sug"><p>Sugg. Price $160</p></span>
+                <span className= "our"><p>Our Price $79.99</p></span>
             </div>
 
             <div className= "border w-100 col-md-3">
                 <a href="#"><img class="d-block w-100" src="kitchen_club_photos\cut_2.jpg" alt="cut2" /></a>
+                <p>Zwilling Kanren 7-Piece Easel Knife Set</p>
             </div>
 
             <div className= "border w-100 col-md-3">
                 <a href="#"><img class="d-block w-100" src="kitchen_club_photos\cut_3.jpg" alt="cut3" /></a>
+                <p>Zwilling Twin 1731 7-Piece Knife Block Set</p>
             </div>
 
             <div className= "border w-100 col-md-3">
                 <a href="#"><img class="d-block w-100" src="kitchen_club_photos\cut_4.jpg" alt="cut4" /></a>
+                <p>Zwilling Twin 1731 4-Piece Knife Roll Set</p>
             </div>
 
 
@@ -99,6 +105,9 @@ import {
         </div>
     )
   }
+
+
+
   
   const ColoredLine = ({ color }) => (
       <hr
@@ -132,4 +141,11 @@ $(document).ready(function() {
         $('.details2').stop().fadeOut(300);
       }
     );
+});
+
+//50% OFF DEALS functionality for Cutlery
+$(document).ready(function(){
+    $(".hidecut").click(function(){
+    $(".cut").toggle("fast");
+    });
 });
