@@ -26,19 +26,19 @@ import {
                   
                     <Navbar color="light" light expand="md" >
                     <div class="row">
-                      <div class="col-md-5">
-                          <h1 style={{fontSize: 33}}>Today's 50% OFF Deals</h1>
+                      <div class="col-md-4">
+                          <h1 style={{fontSize: 33}}>Today's Deals</h1>
                       </div>
-                      <div class="col-md-7" style={{paddingRight: 30}, {marginRight: 10}}>
-                          <Link to='/Option1' className= "hidecut" style={{ textDecoration: 'none' },{color: "black"}}>
+                      <div class="col-md-9" style={{paddingRight: 30}, {marginRight: 10}}>
+                          <Link to='/Option1' className= "hideitem" style={{ textDecoration: 'none' },{color: "black"}}>
                               Cutlery
                           </Link>
   
-                          <Link to='/Option2' style={{ textDecoration: 'none' },{color: "black"}}>
-                              Kitchen Tools and Utensil Sets
+                          <Link to='/Option2' className= "hideitem" style={{ textDecoration: 'none' },{color: "black"}}>
+                              Kitchen Tools & Utensil Sets
                           </Link>
   
-                          <Link to='/Option3' style={{ textDecoration: 'none' },{color: "black"}}>
+                          <Link to='/Option3' className= "hideitem" style={{ textDecoration: 'none' },{color: "black"}}>
                               Spatulas & Turners
                           </Link>
                       </div>
@@ -64,7 +64,7 @@ import {
           <div className= "cut row w-100" style= {{display: "none"}}>
 
             <div className= "border w-100 col-md-3">
-                <a href="#"><img class="d-block w-100" src="kitchen_club_photos\cut_1.jpg" alt="cut1" /></a>
+                <a href="#"><img className= "imgs" class="d-block w-100" src="kitchen_club_photos\cut_1.jpg" alt="cut1" /></a>
                 <p>Zwilling Kanren 4-Piece Steak Knife Set</p>
                 <span className= "sug"><p>Sugg. Price $160</p></span>
                 <span className= "our"><p>Our Price $79.99</p></span>
@@ -73,18 +73,23 @@ import {
             <div className= "border w-100 col-md-3">
                 <a href="#"><img class="d-block w-100" src="kitchen_club_photos\cut_2.jpg" alt="cut2" /></a>
                 <p>Zwilling Kanren 7-Piece Easel Knife Set</p>
+                <span className= "sug"><p>Sugg. Price $1,060</p></span>
+                <span className= "our"><p>Our Price $799.95</p></span>
             </div>
 
             <div className= "border w-100 col-md-3">
                 <a href="#"><img class="d-block w-100" src="kitchen_club_photos\cut_3.jpg" alt="cut3" /></a>
                 <p>Zwilling Twin 1731 7-Piece Knife Block Set</p>
+                <span className= "sug"><p>Sugg. Price $1,499</p></span>
+                <span className= "our"><p>Our Price $1,200</p></span>
             </div>
 
             <div className= "border w-100 col-md-3">
                 <a href="#"><img class="d-block w-100" src="kitchen_club_photos\cut_4.jpg" alt="cut4" /></a>
                 <p>Zwilling Twin 1731 4-Piece Knife Roll Set</p>
+                <span className= "sug"><p>Sugg. Price $1,000</p></span>
+                <span className= "our"><p>Our Price $699.99</p></span>
             </div>
-
 
           </div>
       )
@@ -92,17 +97,73 @@ import {
   
   function Option2() {
       return (
-          <div>
-              <h1>Option 2 Content</h1>
-          </div>
+        <div className= "cut row w-100" style= {{display: "none"}}>
+
+        <div className= "border w-100 col-md-3">
+            <a href="#"><img class="d-block w-100" src="kitchen_club_photos\tools_1.jpg" alt="cut1" /></a>
+            <p>Kitchen Club Ultimate Prep Kitchen Set</p>
+            <span className= "sug"><p>Sugg. Price $250</p></span>
+            <span className= "our"><p>Our Price $149.99</p></span>
+        </div>
+
+        <div className= "border w-100 col-md-3">
+            <a href="#"><img class="d-block w-100" src="kitchen_club_photos\tools_2.jpg" alt="cut2" /></a>
+            <p>Kitchen Club 15-Piece Kitchen Tool Set</p>
+            <span className= "sug"><p>Sugg. Price $250</p></span>
+            <span className= "our"><p>Our Price $149.99</p></span>
+        </div>
+
+        <div className= "border w-100 col-md-3">
+            <a href="#"><img class="d-block w-100" src="kitchen_club_photos\tools_3.jpg" alt="cut3" /></a>
+            <p>All Clad Precision Nonstick Flex Turner</p>
+            <span className= "sug"><p>Sugg. Price $99.99</p></span>
+            <span className= "our"><p>Our Price $49.99</p></span>
+        </div>
+
+        <div className= "border w-100 col-md-3">
+            <a href="#"><img class="d-block w-100" src="kitchen_club_photos\tools_4.jpg" alt="cut4" /></a>
+            <p>Copper Utensils, Set of 4</p>
+            <span className= "sug"><p>Sugg. Price $200</p></span>
+            <span className= "our"><p>Our Price $99.99</p></span>
+        </div>
+
+      </div>
       )
   }
   
   function Option3() {
     return (
-        <div>
-            <h1>Option 3 Content</h1>
-        </div>
+        <div className= "cut row w-100" style= {{display: "none"}}>
+
+            <div className= "border w-100 col-md-3">
+                <a href="#"><img class="d-block w-100" src="kitchen_club_photos\spat_1.jpg" alt="cut1" /></a>
+                <p>Kitchen Club Maple Wood Turner</p>
+                <span className= "sug"><p>Sugg. Price $89.99</p></span>
+                <span className= "our"><p>Our Price $49.99</p></span>
+            </div>
+
+            <div className= "border w-100 col-md-3">
+                <a href="#"><img class="d-block w-100" src="kitchen_club_photos\spat_2.jpg" alt="cut2" /></a>
+                <p>Kitchen Club Ultimate Copper Utensils, Set of 8</p>
+                <span className= "sug"><p>Sugg. Price $170</p></span>
+                <span className= "our"><p>Our Price $129.99</p></span>
+            </div>
+
+            <div className= "border w-100 col-md-3">
+                <a href="#"><img class="d-block w-100" src="kitchen_club_photos\spat_3.jpg" alt="cut3" /></a>
+                <p>Kitchen Club Large BBQ Spatula</p>
+                <span className= "sug"><p>Sugg. Price $80</p></span>
+                <span className= "our"><p>Our Price $59.99</p></span>
+            </div>
+
+            <div className= "border w-100 col-md-3">
+                <a href="#"><img class="d-block w-100" src="kitchen_club_photos\spat_4.jpg" alt="cut4" /></a>
+                <p>Kitchen Club Nonstick Cookie Spatula</p>
+                <span className= "sug"><p>Sugg. Price $30</p></span>
+                <span className= "our"><p>Our Price $19.99</p></span>
+            </div>
+
+          </div>
     )
   }
 
@@ -145,7 +206,7 @@ $(document).ready(function() {
 
 //50% OFF DEALS functionality for Cutlery
 $(document).ready(function(){
-    $(".hidecut").click(function(){
+    $(".hideitem").click(function(){
     $(".cut").toggle("fast");
     });
 });
