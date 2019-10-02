@@ -210,3 +210,16 @@ $(document).ready(function(){
     $(".cut").toggle("fast");
     });
 });
+
+//Account and Cart functionality
+$(document).ready(function(){
+    $(".acc").click(function(){
+    alert("There is currently no account details available for your account");
+    });
+});
+
+$(document).ready(function(){
+    $(".cart").click(function(){
+    alert("Your cart is empty");
+    });
+});
