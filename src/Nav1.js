@@ -70,7 +70,7 @@ dropToggle() {
 
             <Nav className="ml-auto stickybar" navbar >
               <NavItem>
-                <NavLink className="nav-hover" href="/" style={{ textDecoration: 'none' },{color: "black"}}>Home</NavLink>
+                <NavLink className="nav-hover" href="#" style={{ textDecoration: 'none' },{color: "black"}}>Home</NavLink>
               </NavItem>
               <DropdownItem divider />
               <NavItem>
@@ -81,19 +81,19 @@ dropToggle() {
                   </DropdownToggle>
                   <DropdownMenu right>
                       <DropdownItem toggle={false} className="dropdown-link">
-                          <a href="" >Dinnerware Sets</a>
+                          <a href="#" >Dinnerware Sets</a>
                       </DropdownItem >
                     <DropdownItem divider />
                       <DropdownItem toggle={false} className="dropdown-link">
-                          <a href="" >Dinner Plates</a>
+                          <a href="#" >Dinner Plates</a>
                       </DropdownItem>
                     <DropdownItem divider />
                       <DropdownItem toggle={false} className="dropdown-link">
-                          <a href="" >Bowls</a>
+                          <a href="#" >Bowls</a>
                       </DropdownItem>
                     <DropdownItem divider />
                       <DropdownItem toggle={false} className="dropdown-link">
-                          <a href="" >Mugs</a>
+                          <a href="#" >Mugs</a>
                       </DropdownItem>
                   </DropdownMenu>
               </UncontrolledDropdown>
@@ -109,19 +109,19 @@ dropToggle() {
                   </DropdownToggle>
                   <DropdownMenu right >
                       <DropdownItem toggle={false} className="dropdown-link">
-                          <a href="" >Slow Cookers</a>
+                          <a href="#" >Slow Cookers</a>
                       </DropdownItem >
                     <DropdownItem divider />
                       <DropdownItem toggle={false} className="dropdown-link">
-                          <a href="" >Microwaves</a>
+                          <a href="#" >Microwaves</a>
                       </DropdownItem>
                     <DropdownItem divider />
                       <DropdownItem toggle={false} className="dropdown-link">
-                          <a href="" >Blenders</a>
+                          <a href="#" >Blenders</a>
                       </DropdownItem>
                     <DropdownItem divider />
                       <DropdownItem toggle={false} className="dropdown-link">
-                          <a href="" >Toasters & Toaster Ovens</a>
+                          <a href="#" >Toasters & Toaster Ovens</a>
                       </DropdownItem>
                   </DropdownMenu>
               </UncontrolledDropdown>
@@ -135,15 +135,15 @@ dropToggle() {
                 </DropdownToggle>
                 <DropdownMenu right>
                   <DropdownItem toggle={false} className="dropdown-link">
-                      <a href="" >Cookware Sets</a>
+                      <a href="#" >Cookware Sets</a>
                   </DropdownItem >
                 <DropdownItem divider />
                   <DropdownItem toggle={false} className="dropdown-link">
-                      <a href="" >Roasting Pans</a>
+                      <a href="#" >Roasting Pans</a>
                   </DropdownItem>
                 <DropdownItem divider />
                   <DropdownItem toggle={false} className="dropdown-link">
-                      <a href="" >Woks</a>
+                      <a href="#" >Woks</a>
                   </DropdownItem>
 
                   </DropdownMenu>
