@@ -81,7 +81,7 @@ dropToggle() {
                   </DropdownToggle>
                   <DropdownMenu right>
                       <DropdownItem toggle={false} className="dropdown-link">
-                          <a href="#" >Dinnerware Sets</a>
+                          <a href="https://damiusgreen.github.io/dinnerware_sets/" >Dinnerware Sets</a>
                       </DropdownItem >
                     <DropdownItem divider />
                       <DropdownItem toggle={false} className="dropdown-link">
