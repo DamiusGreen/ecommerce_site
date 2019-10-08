@@ -93,7 +93,7 @@ dropToggle() {
                       </DropdownItem>
                     <DropdownItem divider />
                       <DropdownItem toggle={false} className="dropdown-link">
-                          <a href="#" >Mugs</a>
+                          <a href="https://damiusgreen.github.io/mugs/#/" >Mugs</a>
                       </DropdownItem>
                   </DropdownMenu>
               </UncontrolledDropdown>
@@ -109,11 +109,11 @@ dropToggle() {
                   </DropdownToggle>
                   <DropdownMenu right >
                       <DropdownItem toggle={false} className="dropdown-link">
-                          <a href="#" >Slow Cookers</a>
+                          <a href="https://damiusgreen.github.io/slow_cookers/#/" >Slow Cookers</a>
                       </DropdownItem >
                     <DropdownItem divider />
                       <DropdownItem toggle={false} className="dropdown-link">
-                          <a href="#" >Microwaves</a>
+                          <a href="https://damiusgreen.github.io/microwaves/#/" >Microwaves</a>
                       </DropdownItem>
                     <DropdownItem divider />
                       <DropdownItem toggle={false} className="dropdown-link">
