@@ -117,11 +117,11 @@ dropToggle() {
                       </DropdownItem>
                     <DropdownItem divider />
                       <DropdownItem toggle={false} className="dropdown-link">
-                          <a href="#" >Blenders</a>
+                          <a href="https://damiusgreen.github.io/blenders/#/" >Blenders</a>
                       </DropdownItem>
                     <DropdownItem divider />
                       <DropdownItem toggle={false} className="dropdown-link">
-                          <a href="#" >Toasters & Toaster Ovens</a>
+                          <a href="https://damiusgreen.github.io/toasters/#/" >Toasters & Toaster Ovens</a>
                       </DropdownItem>
                   </DropdownMenu>
               </UncontrolledDropdown>
@@ -135,15 +135,15 @@ dropToggle() {
                 </DropdownToggle>
                 <DropdownMenu right>
                   <DropdownItem toggle={false} className="dropdown-link">
-                      <a href="#" >Cookware Sets</a>
+                      <a href="https://damiusgreen.github.io/cookware/#/" >Cookware Sets</a>
                   </DropdownItem >
                 <DropdownItem divider />
                   <DropdownItem toggle={false} className="dropdown-link">
-                      <a href="#" >Roasting Pans</a>
+                      <a href="https://damiusgreen.github.io/roasting_pans/#/" >Roasting Pans</a>
                   </DropdownItem>
                 <DropdownItem divider />
                   <DropdownItem toggle={false} className="dropdown-link">
-                      <a href="#" >Woks</a>
+                      <a href="https://damiusgreen.github.io/woks/#/" >Woks</a>
                   </DropdownItem>
 
                   </DropdownMenu>
