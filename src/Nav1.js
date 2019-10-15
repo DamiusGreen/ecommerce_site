@@ -70,7 +70,7 @@ dropToggle() {
 
             <Nav className="ml-auto stickybar" navbar >
               <NavItem>
-                <NavLink className="nav-hover" href="https://damiusgreen.github.io/dinnerware_sets/" style={{ textDecoration: 'none' },{color: "black"}}>Home</NavLink>
+                <NavLink className="nav-hover" href="https://damiusgreen.github.io/ecommerce_site/" style={{ textDecoration: 'none' },{color: "black"}}>Home</NavLink>
               </NavItem>
               <DropdownItem divider />
               <NavItem>
